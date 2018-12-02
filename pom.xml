@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>me.bmjohansen</groupId>
+	<artifactId>adventofcode</artifactId>
+	<version>0.1.0</version>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>10</source>
+					<target>10</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<packaging>jar</packaging>
+
+	<name>Advent of Code 2018</name>
+
+	<developers>
+		<developer>
+			<name>Bendik Mathias Johansen</name>
+			<email>bendikj@gmailcom</email>
+		</developer>
+	</developers>
+
+	<properties>
+		<junit.version>4.12</junit.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
