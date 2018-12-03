@@ -1,7 +1,5 @@
 package me.bmjohansen.adventofcode.solver;
 
-import java.io.InputStream;
-
 /**
  * @author Bendik Mathias Johansen
  *

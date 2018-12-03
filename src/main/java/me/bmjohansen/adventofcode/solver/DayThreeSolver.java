@@ -3,6 +3,9 @@ package me.bmjohansen.adventofcode.solver;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Bendik Mathias Johansen
+ */
 public class DayThreeSolver implements Solver<Integer, Integer> {
 
     private class Area {
