@@ -1,5 +1,6 @@
 package me.bmjohansen.adventofcode;
 
+import me.bmjohansen.adventofcode.solver.DayFourSolver;
 import me.bmjohansen.adventofcode.solver.DayThreeSolver;
 
 import java.io.BufferedReader;
@@ -11,8 +12,8 @@ import java.io.FileReader;
  */
 public class AdventOfCode {
     public static void main(String[] args) {
-        var solver = new DayThreeSolver();
-        var input = readFile("input3.txt");
+        var solver = new DayFourSolver();
+        var input = readFile("input4.txt");
 
         var firstResult = solver.solveFirst(input);
         var secondResult = solver.solveSecond(input);
