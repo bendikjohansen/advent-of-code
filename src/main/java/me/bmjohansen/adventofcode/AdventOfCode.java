@@ -1,6 +1,6 @@
 package me.bmjohansen.adventofcode;
 
-import me.bmjohansen.adventofcode.solver.DayNineSolver;
+import me.bmjohansen.adventofcode.solver.DayTenSolver;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -11,8 +11,8 @@ import java.io.FileReader;
  */
 public class AdventOfCode {
     public static void main(String[] args) {
-        var solver = new DayNineSolver();
-        var input = readFile("input9.txt");
+        var solver = new DayTenSolver();
+        var input = readFile("input10.txt");
 
         var firstResult = solver.solveFirst(input);
         var secondResult = solver.solveSecond(input);
