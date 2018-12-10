@@ -27,7 +27,7 @@ public class DayNineSolver implements Solver<Long, Long> {
         final long lastMarble = Long.parseLong(input.split(" ")[6]);
         final var playerScores = playMarbleGame(players, lastMarble);
 
-        return playerScores.stream().max(Long::compareTo).orElse(0l);
+        return playerScores.stream().max(Long::compareTo).orElse(0L);
     }
 
     @Override
@@ -36,14 +36,14 @@ public class DayNineSolver implements Solver<Long, Long> {
         final long lastMarble = Long.parseLong(input.split(" ")[6]) * 100;
         final var playerScores = playMarbleGame(players, lastMarble);
 
-        return playerScores.stream().max(Long::compareTo).orElse(0l);
+        return playerScores.stream().max(Long::compareTo).orElse(0L);
     }
 
     private ArrayList<Long> playMarbleGame(int players, long lastMarble) {
         var current = new Marble(0);
 
         final var scores = new ArrayList<Long>();
-        for (var p = 0; p < players; p++) scores.add(0l);
+        for (var p = 0; p < players; p++) scores.add(0L);
 
         var player = 0;
 
@@ -82,4 +82,5 @@ public class DayNineSolver implements Solver<Long, Long> {
 
         return newNext;
     }
+
 }
