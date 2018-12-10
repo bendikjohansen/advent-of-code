@@ -2,6 +2,9 @@ package me.bmjohansen.adventofcode.solver;
 
 import java.util.ArrayList;
 
+/**
+ * @author Bendik Mathias Johansen
+ */
 public class DayNineSolver implements Solver<Long, Long> {
     private static final long SPECIAL_VALUE = 23;
     private static final long MARBLES_TO_LEFT = 7;

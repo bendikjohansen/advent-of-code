@@ -3,6 +3,9 @@ package me.bmjohansen.adventofcode.solver;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * @author Bendik Mathias Johansen
+ */
 public class DayNineSolverTest {
 
     private final Solver solver = new DayNineSolver();
